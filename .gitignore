@@ -1,0 +1,51 @@
+# macOS metadata
+.DS_Store
+._*
+.AppleDouble/
+
+# Build products, caches, archives and test reports
+build/
+DerivedData/
+.build/
+.swiftpm/
+*.app/
+*.dSYM/
+*.xcarchive/
+*.xcresult/
+*.ipa
+*.dmg
+*.pkg
+*.zip
+*.log
+
+# Personal IDE and assistant state
+xcuserdata/
+*.xcuserstate
+.idea/
+.vscode/
+.codex/
+.claude/
+/Topics/
+/conversations/
+
+# Local data and configuration
+/local-data/
+/private/
+.env
+.env.*
+*.local
+*.local.*
+Secrets.xcconfig
+
+# Credentials and signing material
+*.pem
+*.key
+*.p12
+*.pfx
+*.p8
+*.cer
+*.mobileprovision
+*.provisionprofile
+.netrc
+.npmrc
+credentials.json

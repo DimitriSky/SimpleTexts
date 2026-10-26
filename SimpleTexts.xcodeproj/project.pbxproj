@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D4A4D4B50DA327824571C6C /* NotesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097E06927A5448D7D23215DD /* NotesStore.swift */; };
+		5FA710FD6022D8D7EF5A5ECC /* SimpleTextsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E5EA4FB98D29486AFC46FD /* SimpleTextsApp.swift */; };
+		9A6DA284F6C0849E4BD3EAB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992FC0AF21ED159716FE9227 /* ContentView.swift */; };
+		FC099F45BF6933785ACD9994 /* NotesStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75870594B468160A50C7C913 /* NotesStoreTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67DDD33A383257638CB5FE6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF386AA82120DDC1681F21E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E61A00124AED2A7564809D2A;
+			remoteInfo = SimpleTexts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		097E06927A5448D7D23215DD /* NotesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesStore.swift; sourceTree = "<group>"; };
+		38D8CA39B2DAB9BE2E3AA9C6 /* SimpleTextsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTextsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75870594B468160A50C7C913 /* NotesStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesStoreTests.swift; sourceTree = "<group>"; };
+		992FC0AF21ED159716FE9227 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9D13EC6D547A3498DF48C0D1 /* SimpleTexts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTexts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E5EA4FB98D29486AFC46FD /* SimpleTextsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTextsApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		189A7B7155F1B9B8E558F25D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D13EC6D547A3498DF48C0D1 /* SimpleTexts.app */,
+				38D8CA39B2DAB9BE2E3AA9C6 /* SimpleTextsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22938B2DC1368F83C4A13468 /* SimpleTextsTests */ = {
+			isa = PBXGroup;
+			children = (
+				75870594B468160A50C7C913 /* NotesStoreTests.swift */,
+			);
+			path = SimpleTextsTests;
+			sourceTree = "<group>";
+		};
+		8F00F505EB716DF4A73E0FFD = {
+			isa = PBXGroup;
+			children = (
+				A04BF9BFDA196B8D9E2A161E /* SimpleTexts */,
+				22938B2DC1368F83C4A13468 /* SimpleTextsTests */,
+				189A7B7155F1B9B8E558F25D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A04BF9BFDA196B8D9E2A161E /* SimpleTexts */ = {
+			isa = PBXGroup;
+			children = (
+				992FC0AF21ED159716FE9227 /* ContentView.swift */,
+				097E06927A5448D7D23215DD /* NotesStore.swift */,
+				B4E5EA4FB98D29486AFC46FD /* SimpleTextsApp.swift */,
+			);
+			path = SimpleTexts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EF7548F000ABB9BBB5CFFED /* SimpleTextsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5777F719CACC70F8D7542C31 /* Build configuration list for PBXNativeTarget "SimpleTextsTests" */;
+			buildPhases = (
+				618043DC8AE5FF0DD1656BE0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7875A8B28DA599F40B1A6740 /* PBXTargetDependency */,
+			);
+			name = SimpleTextsTests;
+			packageProductDependencies = (
+			);
+			productName = SimpleTextsTests;
+			productReference = 38D8CA39B2DAB9BE2E3AA9C6 /* SimpleTextsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E61A00124AED2A7564809D2A /* SimpleTexts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DBAEDC006E942B5DCE45C7B /* Build configuration list for PBXNativeTarget "SimpleTexts" */;
+			buildPhases = (
+				01A5FFDAC30AEED3FE275593 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTexts;
+			packageProductDependencies = (
+			);
+			productName = SimpleTexts;
+			productReference = 9D13EC6D547A3498DF48C0D1 /* SimpleTexts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF386AA82120DDC1681F21E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7EF7548F000ABB9BBB5CFFED = {
+						ProvisioningStyle = Automatic;
+					};
+					E61A00124AED2A7564809D2A = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AB734E63D636C1D3F1FEE63E /* Build configuration list for PBXProject "SimpleTexts" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ru,
+			);
+			mainGroup = 8F00F505EB716DF4A73E0FFD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E61A00124AED2A7564809D2A /* SimpleTexts */,
+				7EF7548F000ABB9BBB5CFFED /* SimpleTextsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01A5FFDAC30AEED3FE275593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6DA284F6C0849E4BD3EAB6 /* ContentView.swift in Sources */,
+				5D4A4D4B50DA327824571C6C /* NotesStore.swift in Sources */,
+				5FA710FD6022D8D7EF5A5ECC /* SimpleTextsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618043DC8AE5FF0DD1656BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC099F45BF6933785ACD9994 /* NotesStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7875A8B28DA599F40B1A6740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E61A00124AED2A7564809D2A /* SimpleTexts */;
+			targetProxy = 67DDD33A383257638CB5FE6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04EBB7C07AB75E09A4928700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SimpleTextsTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Texts.app/Contents/MacOS/Simple Texts";
+			};
+			name = Release;
+		};
+		335AC649FE4A5E04AABE4000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6C9F01028C61FFEF8804CCFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Texts";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SimpleTexts;
+				PRODUCT_MODULE_NAME = SimpleTexts;
+				PRODUCT_NAME = "Simple Texts";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		921E54D0A4663786794DA28D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		98E35CD3E2A8AB6B3D51548A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SimpleTextsTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Texts.app/Contents/MacOS/Simple Texts";
+			};
+			name = Debug;
+		};
+		F3AF01F73B0AD6574A93201F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Texts";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SimpleTexts;
+				PRODUCT_MODULE_NAME = SimpleTexts;
+				PRODUCT_NAME = "Simple Texts";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5777F719CACC70F8D7542C31 /* Build configuration list for PBXNativeTarget "SimpleTextsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E35CD3E2A8AB6B3D51548A /* Debug */,
+				04EBB7C07AB75E09A4928700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7DBAEDC006E942B5DCE45C7B /* Build configuration list for PBXNativeTarget "SimpleTexts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3AF01F73B0AD6574A93201F /* Debug */,
+				6C9F01028C61FFEF8804CCFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AB734E63D636C1D3F1FEE63E /* Build configuration list for PBXProject "SimpleTexts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335AC649FE4A5E04AABE4000 /* Debug */,
+				921E54D0A4663786794DA28D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF386AA82120DDC1681F21E0 /* Project object */;
+}

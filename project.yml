@@ -1,0 +1,45 @@
+name: SimpleTexts
+options:
+  bundleIdPrefix: com.example
+  developmentLanguage: ru
+  deploymentTarget:
+    macOS: '14.0'
+settings:
+  base:
+    SWIFT_VERSION: '5.0'
+    CODE_SIGN_STYLE: Automatic
+    CODE_SIGN_IDENTITY: '-'
+targets:
+  SimpleTexts:
+    type: application
+    platform: macOS
+    sources: [SimpleTexts]
+    settings:
+      base:
+        PRODUCT_NAME: Simple Texts
+        PRODUCT_MODULE_NAME: SimpleTexts
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.SimpleTexts
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Simple Texts
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.productivity
+        MARKETING_VERSION: '1.0'
+        CURRENT_PROJECT_VERSION: '1'
+        ENABLE_APP_SANDBOX: YES
+  SimpleTextsTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources: [SimpleTextsTests]
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Simple Texts.app/Contents/MacOS/Simple Texts"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+    dependencies:
+      - target: SimpleTexts
+schemes:
+  SimpleTexts:
+    build:
+      targets:
+        SimpleTexts: all
+    test:
+      targets: [SimpleTextsTests]
